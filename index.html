@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt=br">
+
+<head>  
+    <meta charset="utf-8">
+    <title> Calculadora de Investimentos </title>
+    <link rel="stylesheet" href="personalizacao.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="principal"> Simulador </h1>
+        
+        <form action="destino.php" method="post">
+            <section class="section-flex">
+                <div class="income">
+                    <p> Rendimentos </p>
+                    <input type="radio" id="bruto" name="rendimento">
+                    <input type="radio" id="liquido" name="rendimento">
+                </div>
+
+                <div class="form-input">
+                    <label for="aporteinicial" class="label-spacing"> Aporte Inicial </label> 
+                    <input type="number" id="aporteinicial" name="aporteinicial"> 
+                </div>
+
+                <div class="form-input">
+                    <label for="prazo" class="label-spacing"> Prazo (em meses) </label> 
+                    <input type="number" id="prazo" name="prazo">
+                </div>
+
+                <div class="form-input">
+                    <label for="ipca" class="label-spacing"> IPCA (ao ano) </label> 
+                    <input type="number" id="ipca" name="ipca"> 
+                </div>
+            </section>
+
+            <section>
+                <div class="income">
+                    <p> Tipos de indexação </p>
+                    <input type="radio" id="pre" name="indexacao">
+                    <input type="radio" id="pos" name="indexacao">
+                    <input type="radio" id="fixado" name="indexacao">
+                </div>
+
+               <div class="form-input">
+                   <label for="aportemensal" class="label-spacing form-flex"> Aporte Mensal </label>
+                   <input type="number" id="aportemensal" name="aportemensal">
+                </div>
+
+                <div class="form-input">
+                    <label for="rentabilidade" class="label-spacing form-flex"> Rentabilidade </label>
+                    <input type="number" id="rentabilidade" name="rentabilidade">
+                </div>
+
+                <div class="form-input">
+                    <label for="number" class="label-spacing form-flex"> CDI (ao ano) </label>
+                    <input type="number" id="cdi" name="cdi">
+                </div>
+            </section>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
