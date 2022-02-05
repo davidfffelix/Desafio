@@ -9,10 +9,12 @@
 
 <body>
     <div>
-        <h1 class="principal"> Simulador </h1>
+        <h1 class="main-title"> Simulador de Investimentos </h1>
+
+        <h2 class="second-title"> Simulador </h2>
         
-        <form action="destino.php" method="post">
-            <section class="section-flex">
+        <form action="destino.php" method="post" class="father-flex">
+            <section>
                 <div class="income">
                     <p> Rendimentos </p>
                     <input type="radio" id="bruto" name="rendimento">
@@ -20,17 +22,17 @@
                 </div>
 
                 <div class="form-input">
-                    <label for="aporteinicial" class="label-spacing"> Aporte Inicial </label> 
+                    <label for="aporteinicial" class="label-spacing child-flex"> Aporte Inicial </label> 
                     <input type="number" id="aporteinicial" name="aporteinicial"> 
                 </div>
 
                 <div class="form-input">
-                    <label for="prazo" class="label-spacing"> Prazo (em meses) </label> 
+                    <label for="prazo" class="label-spacing child-flex"> Prazo (em meses) </label> 
                     <input type="number" id="prazo" name="prazo">
                 </div>
 
                 <div class="form-input">
-                    <label for="ipca" class="label-spacing"> IPCA (ao ano) </label> 
+                    <label for="ipca" class="label-spacing child-flex"> IPCA (ao ano) </label> 
                     <input type="number" id="ipca" name="ipca"> 
                 </div>
             </section>
@@ -44,17 +46,17 @@
                 </div>
 
                <div class="form-input">
-                   <label for="aportemensal" class="label-spacing form-flex"> Aporte Mensal </label>
+                   <label for="aportemensal" class="label-spacing child-flex"> Aporte Mensal </label>
                    <input type="number" id="aportemensal" name="aportemensal">
                 </div>
 
                 <div class="form-input">
-                    <label for="rentabilidade" class="label-spacing form-flex"> Rentabilidade </label>
+                    <label for="rentabilidade" class="label-spacing child-flex"> Rentabilidade </label>
                     <input type="number" id="rentabilidade" name="rentabilidade">
                 </div>
 
                 <div class="form-input">
-                    <label for="number" class="label-spacing form-flex"> CDI (ao ano) </label>
+                    <label for="number" class="label-spacing child-flex"> CDI (ao ano) </label>
                     <input type="number" id="cdi" name="cdi">
                 </div>
             </section>
