@@ -1,4 +1,8 @@
-.principal {
+.main-title {
+    text-align: center;
+}
+
+.second-title {
     font-weight: bold;
 }
 
@@ -10,12 +14,17 @@
     margin-bottom: 20px;
 }
 
-.section-flex {
+.father-flex {
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-flow: 
+    justify-content: flex-start;
     align-items: center;
+}
+
+.child-flex {
+    
 }
 
 form input[type='number'] {
