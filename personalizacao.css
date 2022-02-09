@@ -9,8 +9,7 @@
     background-color: #EFEFEF;
     height: 100%;
     width: 95%;
-    margin: 20px 40px 40px 40px;~
-    v  
+    margin: 20px 40px 40px 40px;
 }
 
 .main-title {
@@ -92,16 +91,18 @@
 .button-side-right {
     background-color: #969696;
     margin-right: -100px;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 200px;
     font-weight: bold;
+    height: 60px;
 }
 
 .button-side-left {
     margin-left: -15px;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 200px;
-    
+    height: 60px;
+
     color: black;
     border: 1px solid #555;
     background-color: white;
@@ -131,6 +132,11 @@
     display: flex;
     flex-direction: column;
     margin-top: 35px;
+}
+
+.button-style {
+    margin-top: 10px;
+    margin-bottom: 70px;
 }
 
 form input[type='text'] {
