@@ -26,16 +26,13 @@
     margin-right: 50px;
 }
 
-.income {
-    margin-bottom: 10px;
-}
-
 .income-title {
     margin-bottom: 15px;
+    margin-right: 0px;
 }
 
 .indexing {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 .button-format {
@@ -85,12 +82,12 @@
 }
 
 .form-input {
-    margin-bottom: 20px;
+    margin: 0px 60px 20px 0px;
 }
 
 .button-side-right {
     background-color: #969696;
-    margin-right: -100px;
+    margin-left: -30px;
     border-radius: 10px;
     width: 200px;
     font-weight: bold;
@@ -135,7 +132,7 @@
 }
 
 .button-style {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 70px;
 }
 
@@ -148,7 +145,7 @@ form input[type='text'] {
 }
 
 .label-spacing {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 input::-webkit-outer-spin-button,
