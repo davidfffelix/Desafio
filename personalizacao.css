@@ -9,13 +9,14 @@
     background-color: #EFEFEF;
     height: 95%;
     width: 95%;
-    margin: 20px 40px 20px 40px;
+    margin: 20px 40px 40px 40px;
     
 }
 
 .main-title {
     text-align: center;
     margin: 25px 0 35px 0px;
+    padding: 30px;
 }
 
 .second-title {
@@ -43,6 +44,8 @@
     width: 90px;
     height: 43px;
     padding: 100px;
+    font-family: 'Source Serif 4', sans-serif;
+    font-weight: bold;
 }
 
 .button-format2 {
@@ -54,11 +57,11 @@
     color: black;
     border: 1px solid #555;
     background-color: white;
-    
+    opacity: 100%;
     text-align: center;
     cursor: pointer;
     user-select: none;
-
+    
     margin: -2px;
     padding: 5px 3px;
 }
@@ -77,6 +80,7 @@
 .button:hover {
     background-color: #ED8E53;
     transition: background 1s;
+    
 }
 
 .form-input {
@@ -108,7 +112,7 @@
     padding: 5px 3px;
 }
 
-.button-side-left:hover {
+//.button-side-left:hover {
     background-color: red;
 }
 
@@ -124,6 +128,7 @@
 .child-flex {
     display: flex;
     flex-direction: column;
+    margin-top: 35px;
 }
 
 form input[type='number'] {
