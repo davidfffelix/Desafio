@@ -7,10 +7,10 @@
 
 .background {
     background-color: #EFEFEF;
-    height: 95%;
+    height: 100%;
     width: 95%;
-    margin: 20px 40px 40px 40px;
-    
+    margin: 20px 40px 40px 40px;~
+    v  
 }
 
 .main-title {
@@ -114,7 +114,7 @@
     padding: 5px 3px;
 }
 
-//.button-side-left:hover {
+.button-side-left:hover {
     background-color: red;
 }
 
