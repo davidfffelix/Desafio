@@ -78,7 +78,6 @@
     background-color: #ED8E53;
     color: white;
     transition: background 1s;
-    
 }
 
 .form-input {
@@ -146,7 +145,6 @@ form input[type='text'] {
     outline: none;
     width: 160px;
     background-color: #EFEFEF;
-    
 }
 
 .label-spacing {
