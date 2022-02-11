@@ -1,5 +1,11 @@
+@media(max-width: 1200px) {
+    body {
+        width: 1000px;
+    }
+}
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +34,6 @@
 
 .income-title {
     margin-bottom: 15px;
-    margin-right: 0px;
 }
 
 .indexing {
@@ -40,8 +45,6 @@
     width: 90px;
     height: 43px;
     padding: 100px;
-    font-family: 'Source Serif 4', sans-serif;
-    font-weight: bold;
 }
 
 .button-format2 {
@@ -82,10 +85,6 @@
 
 .form-input {
     margin: 0px 60px 20px 0px;
-}
-
-.teste {
-    margin-left: -30px;
 }
 
 .button-side-right {
@@ -132,6 +131,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 35px;
+
 }
 
 .button-style {
@@ -143,7 +143,7 @@ form input[type='text'] {
     border: 0;
     border-bottom: 1px solid black;
     outline: none;
-    width: 160px;
+    width: 100%;
     background-color: #EFEFEF;
 }
 
