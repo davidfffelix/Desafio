@@ -15,8 +15,8 @@
 }
 
 
-/* Btn radio */
-.bruto, .liquido {
+/* Btn Style */
+.btn-style {
     width: 100px;
     height: 40px;
     
@@ -25,24 +25,33 @@
 
 }
 
+/* Btn Bruto */
 .btn-bruto {
     margin-right: -2px;
 }
 
+/* Btn Líquido */
 .btn-liquido {
     margin-left: -2px;
 }
 
-input[type="radio"]:checked+label{
+/* Form Input */
+form input[type="radio"]:checked+label{
     background-color: white !important;
     color: black !important;
 }
 
-/* Form Input */
+/* Btn Last */
 
-.form-input {
-    
+.btn-last {
+    background-color: #969696;
+    margin-left: -56px;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: bold;
+    height: 60px;
 }
+
 
 input[type="text"] {
     outline: none;

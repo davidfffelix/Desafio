@@ -18,22 +18,23 @@
 
         <h3 class="fw-bold"> Simulador </h3>
 
-        <form>
-            <section class="income">
+        <form class="d-flex">
+            <section>
                 <div class="d-flex justify-content-between mt-3">
                     <h5> Rendimento </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
                 </div> <!-- Title rendimento -->
                 
-                <div class="btn-radio d-flex ">
+                <div class="d-flex">
                     <div class="btn-bruto">
                         <input type="radio" class="btn-check" id="bruto" name="rendimento" value="bruto">
-                        <label for="bruto" class="bruto btn text-light btn-warning rounded-left fw-bold"> Bruto </label>
+                        <label for="bruto" class="btn-style btn text-light btn-warning rounded-left fw-bold"> Bruto </label>
                     </div><!--Btn-bruto-->
+
                     <div class="btn-liquido">
                         <input type="radio" class="btn-check" id="liquido" name="rendimento" value="liquido">
-                        <label for="liquido" class="liquido btn text-light btn-warning rounded-right fw-bold"> Liquido </label>
+                        <label for="liquido" class="btn-style btn text-light btn-warning rounded-right fw-bold"> Liquido </label>
                     </div> <!--Btn-liquido-->
-                </div> <!--Btn-radio-->
+                </div>
 
                 <div class="d-flex flex-column">
                     <div class="form-input">
@@ -51,16 +52,49 @@
                         <input type="text" id="ipca" name="ipca">
                     </div> <!--Form-input-->
                 </div>
-            </section> <!-- Income -->
+
+                <button class="btn-last"> Limpar campos </button> <!-- Btn -->
+
+            
+
+            </section>
 
 
-            <section class="indexing">
-                <div class="d-flex justify-content-center mt-3">
-                    <h5> Tipos de Indexacao </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
+            <section class="d-flex flex-column mt-3">
+                    <div class="d-flex">
+                        <h5> Tipos de Indexacao </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
+                    </div>
 
+                    <div class="d-flex">
+                        <div>
+                            <input type="radio" class="btn-style btn-check" id="pre" name="indexing" value="pre">
+                            <label for="pre" class="btn text-light btn-warning rounded-left fw-bold"> PRE </label>
+                        </div>
 
-                </div>
-            </section> <!-- Indexing Types -->
+                        <div>
+                            <input type="radio" class="btn-style btn-check" id="pos" name="indexing" value="pos">
+                            <label for="pos" class="btn text-light btn-warning fw-bold"> POS </label>
+                        </div>
+
+                        <div>
+                            <input type="radio" class="btn-style btn-check" id="fixado" name="indexing" value="fixado">
+                            <label for="fixado" class="btn text-light btn-warning rounded-right fw-bold"> FIXADO </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-input">
+                        <label for="aportemensal" class="d-flex flex-column mt-3 mb-4"> Aporte Mensal </label>
+                        <input type="text" id="aportemensal" name="aportemensal">
+
+                        <label for="rentabilidade" class="d-flex flex-column mt-3 mb-4"> Rentabilidade </label>
+                        <input type="text" id="rentabilidade" name="rentabilidade">
+
+                        <label for="cdi" class="d-flex flex-column mt-3 mb-4"> CDI (ao ano) </label>
+                        <input type="text" id="rentabilidade" name="rentabilidade">
+                    </div>
+
+                    <button class="btn-last"> Simular </button> <!-- Btn -->
+            </section>
             
         </form> 
     </div> <!-- Background  -->
