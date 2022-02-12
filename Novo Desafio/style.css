@@ -14,7 +14,6 @@
     padding: 40px;
 }
 
-
 /* Btn Style */
 .btn-style {
     width: 100px;
@@ -22,7 +21,6 @@
     
     text-align: center;
     cursor: pointer;
-
 }
 
 /* Btn Bruto */
@@ -51,7 +49,6 @@ form input[type="radio"]:checked+label{
     font-weight: bold;
     height: 60px;
 }
-
 
 input[type="text"] {
     outline: none;
