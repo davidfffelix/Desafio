@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Novo Desafio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <div class="bg">
+        <h1 class="d-flex justify-content-center fw-bold"> Simulador de Investimentos </h1>
+
+        <h3 class="fw-bold"> Simulador </h3>
+
+        <form>
+            <section class="income">
+                <div class="d-flex justify-content-between mt-3">
+                    <h5> Rendimento </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
+                </div> <!-- Title rendimento -->
+                
+                <div class="btn-radio d-flex ">
+                    <div class="btn-bruto">
+                        <input type="radio" class="btn-check" id="bruto" name="rendimento" value="bruto">
+                        <label for="bruto" class="bruto btn text-light btn-warning rounded-left fw-bold"> Bruto </label>
+                    </div><!--Btn-bruto-->
+                    <div class="btn-liquido">
+                        <input type="radio" class="btn-check" id="liquido" name="rendimento" value="liquido">
+                        <label for="liquido" class="liquido btn text-light btn-warning rounded-right fw-bold"> Liquido </label>
+                    </div> <!--Btn-liquido-->
+                </div> <!--Btn-radio-->
+
+                <div class="d-flex flex-column">
+                    <div class="form-input">
+                        <label for="aporteinicial" class="d-flex flex-column mt-3 mb-4"> Aporte Inicial </label>
+                        <input type="text" id="aporteinicial" name="aporteinicial"> 
+                    </div> <!--Form-input-->
+
+                    <div class="form-input">
+                        <label for="prazo" class="d-flex flex-column mt-3 mb-4"> Prazo (em meses) </label>
+                        <input type="text" id="prazo" name="prazo">
+                    </div> <!--Form-input-->
+
+                    <div class="form-input">
+                        <label for="ipca" class="d-flex flex-column mt-3 mb-4"> IPCA (ao ano) </label>
+                        <input type="text" id="ipca" name="ipca">
+                    </div> <!--Form-input-->
+                </div>
+            </section> <!-- Income -->
+
+
+            <section class="indexing">
+                <div class="d-flex justify-content-center mt-3">
+                    <h5> Tipos de Indexacao </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
+
+
+                </div>
+            </section> <!-- Indexing Types -->
+            
+        </form> 
+    </div> <!-- Background  -->
+
+</body>
+
+</html>

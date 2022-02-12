@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;  /* Alterar */
+}
+
+/* Background */
+.bg {
+    height: 100%;
+    
+    background-color: #EFEFEF;
+    margin: 40px;
+    padding: 40px;
+}
+
+
+/* Btn radio */
+.bruto, .liquido {
+    width: 100px;
+    height: 40px;
+    
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.btn-bruto {
+    margin-right: -2px;
+}
+
+.btn-liquido {
+    margin-left: -2px;
+}
+
+input[type="radio"]:checked+label{
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Form Input */
+
+.form-input {
+    
+}
+
+input[type="text"] {
+    outline: none;
+    max-width: 200px;
+    width: 100%;
+    background-color: #EFEFEF;
+
+    border: 0 !important;
+    border-bottom: 1px solid black !important;
+}
