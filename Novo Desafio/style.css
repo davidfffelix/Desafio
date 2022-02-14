@@ -65,11 +65,13 @@ form input[type="radio"]:checked+label{
 }
 
 .btn-result {
-    width: 300px;
+    width: 200px;
     height: 60px;
     border: 2px solid green;
     text-align: center;
-
+    box-shadow: 2px;
+    padding: 5px;
+    margin: 5px;
     
 }
 
