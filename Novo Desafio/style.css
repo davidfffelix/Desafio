@@ -67,12 +67,10 @@ form input[type="radio"]:checked+label{
 .btn-result {
     width: 200px;
     height: 60px;
-    border: 2px solid green;
+    background-color: white;
     text-align: center;
-    box-shadow: 2px;
-    padding: 5px;
     margin: 5px;
-    
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #DDDDDD;
 }
 
 input[type="text"] {
@@ -80,7 +78,6 @@ input[type="text"] {
     max-width: 200px;
     width: 100%;
     background-color: #EFEFEF;
-
     border: 0 !important;
     border-bottom: 1px solid black !important;
 }
