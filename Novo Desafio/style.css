@@ -64,6 +64,7 @@ form input[type="radio"]:checked+label{
     height: 60px;
 }
 
+/* Btn Result */
 .btn-result {
     width: 200px;
     height: 80px;
