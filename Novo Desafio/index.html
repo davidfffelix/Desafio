@@ -22,8 +22,9 @@
             <section class="spacing-form">
                 <div class="d-flex justify-content-between mt-3">
                     <h5> Rendimento </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
-                </div> <!-- Title rendimento -->
-                
+                </div> <!-- Title Rendimento -->
+
+
                 <div class="d-flex">
                     <div class="btn-bruto">
                         <input type="radio" class="btn-check" id="bruto" name="rendimento" value="bruto">
@@ -35,6 +36,7 @@
                         <label for="liquido" class="btn-style btn text-light btn-warning rounded-right fw-bold"> Liquido </label>
                     </div> <!--Btn-liquido-->
                 </div>
+
 
                 <div class="d-flex flex-column">
                     <div class="form-input">
@@ -53,47 +55,82 @@
                     </div> <!--Form-input-->
                 </div>
 
-                <button class="btn-clean mt-5"> Limpar campos </button> <!-- Btn -->
+
+                <button class="btn-clean mt-5"> Limpar campos </button> <!-- Btn Clean -->
             </section>
 
 
             <section class="d-flex flex-column mt-3">
                     <div class="d-flex">
                         <h5> Tipos de Indexacao </h5> <span class="d-flex"><img src="img/icon-info.svg"></span>
-                    </div>
+                    </div> <!-- Types of Indexing -->
+
 
                     <div class="d-flex">
                         <div>
                             <input type="radio" class="btn-style btn-check" id="pre" name="indexing" value="pre">
                             <label for="pre" class="btn text-light btn-warning rounded-left fw-bold"> PRE </label>
-                        </div>
+                        </div> <!-- Pré --> 
 
                         <div>
                             <input type="radio" class="btn-style btn-check" id="pos" name="indexing" value="pos">
                             <label for="pos" class="btn text-light btn-warning fw-bold"> POS </label>
-                        </div>
+                        </div> <!-- Pos -->
 
                         <div>
                             <input type="radio" class="btn-style btn-check" id="fixado" name="indexing" value="fixado">
                             <label for="fixado" class="btn text-light btn-warning rounded-right fw-bold"> FIXADO </label>
-                        </div>
-                    </div>
+                        </div> <!-- Fixado -->
+                    </div>  
+
                     
                     <div class="form-input">
                         <label for="aportemensal" class="d-flex flex-column mt-3 mb-4"> Aporte Mensal </label>
                         <input type="text" id="aportemensal" name="aportemensal">
+                        <!-- Aporte Mensal --> 
 
                         <label for="rentabilidade" class="d-flex flex-column mt-3 mb-4"> Rentabilidade </label>
                         <input type="text" id="rentabilidade" name="rentabilidade">
+                        <!-- Rentabilidade -->
 
                         <label for="cdi" class="d-flex flex-column mt-3 mb-4"> CDI (ao ano) </label>
                         <input type="text" id="rentabilidade" name="rentabilidade">
+                        <!-- CDI -->
                     </div>
 
-                    <button class="btn-simulate mt-5"> Simular </button> <!-- Btn -->
+
+                    <button class="btn-simulate mt-5"> Simular </button> <!-- Btn Simulate-->
             </section>
             
         </form> 
+
+        <div class="d-flex fw-bold mt-5">
+            <div>
+                <h3 class="fw-bold"> Resultado da Simulacao </h3>
+            </div>
+
+
+            <div> 
+                <p class="d-flex justify-content-between btn-result"> Valor final bruto </p>
+
+
+
+             </div> <!-- Gross final value -->  
+             
+             <div>
+                 <p class="d-flex btn-result"> Aliquota do IR </p>
+             </div> <!-- IR aliquot  -->
+
+             <div>
+                 <p class="d-flex btn-result"> Valor Pago em IR </p>
+             </div> <!-- IR paid  -->
+
+
+
+
+
+        </div> <!-- Result -->
+
     </div> <!-- Background  -->
 
 </body>
