@@ -19,7 +19,13 @@
     margin-right: 100px;
 }
 
-/* Btn Style */
+.btn-style {
+    border: 2px solid black !important;
+    width: 40px;
+    height: 30px;
+}
+
+/* Btn Style1 */
 .btn-style1 {
     border: 2px solid black !important;
     padding: 30px;
@@ -29,7 +35,9 @@
     cursor: pointer;
 }
 
+/* Btn Style2 */
 .btn-style2 {
+    border: 2px solid black !important;
     padding: 30px 10px;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
@@ -39,12 +47,18 @@
 
 /* Btn Bruto */
 .btn-bruto {
+    border: 2px solid black !important;
     margin-right: -2px;
+    width: 60px;
+    height: 40px;
 }
 
 /* Btn Líquido */
 .btn-liquido {
+    border: 2px solid black !important;
     margin-left: -2px;
+    width: 40px;
+    height: 30px;
 }
 
 /* Form Input */
