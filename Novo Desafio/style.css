@@ -20,10 +20,19 @@
 }
 
 /* Btn Style */
-.btn-style {
-    width: 100px;
-    height: 40px;
-    
+.btn-style1 {
+    border: 2px solid black !important;
+    padding: 30px;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-style2 {
+    padding: 30px 10px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
     text-align: center;
     cursor: pointer;
 }
@@ -46,7 +55,7 @@ form input[type="radio"]:checked+label{
 
 /* Btn Last */
 .btn-clean {
-    background-color: #969696;
+    background-color: #EFEFEF;
     margin-left: 0;
     border-radius: 10px;
     width: 200px;
@@ -56,7 +65,7 @@ form input[type="radio"]:checked+label{
 
 /* Btn Simulate */
 .btn-simulate {
-    background-color: #969696;
+    background-color: #EFEFEF;
     margin-left: 0;
     border-radius: 10px;
     width: 200px;
