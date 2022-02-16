@@ -47,18 +47,13 @@
 
 /* Btn Bruto */
 .btn-bruto {
-    border: 2px solid black !important;
-    margin-right: -2px;
-    width: 60px;
-    height: 40px;
+    
 }
 
 /* Btn Líquido */
 .btn-liquido {
-    border: 2px solid black !important;
-    margin-left: -2px;
-    width: 40px;
-    height: 30px;
+    background-color: #EFEFEF;
+    color: red !important;
 }
 
 /* Form Input */
@@ -87,6 +82,10 @@ form input[type="radio"]:checked+label{
     height: 60px;
 }
 
+.btn-simulate:hover {
+    background-color: #ED8E53;
+}
+
 /* Btn Result */
 .btn-result {
     width: 200px;
@@ -104,4 +103,8 @@ input[type="text"] {
     background-color: #EFEFEF;
     border: 0 !important;
     border-bottom: 1px solid black !important;
+}
+
+button[type="button"]:hover {
+    background-color: #ED8E53;
 }
