@@ -8,7 +8,6 @@
 /* Background */
 .bg {
     height: 100%;
-    
     background-color: #EFEFEF;
     margin: 40px;
     padding: 40px;
@@ -43,17 +42,6 @@
     border-bottom-left-radius: 0 !important;
     text-align: center;
     cursor: pointer;
-}
-
-/* Btn Bruto */
-.btn-bruto {
-    
-}
-
-/* Btn Líquido */
-.btn-liquido {
-    background-color: #EFEFEF;
-    color: red !important;
 }
 
 /* Form Input */
