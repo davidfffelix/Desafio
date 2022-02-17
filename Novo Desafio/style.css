@@ -48,16 +48,22 @@ form input[type="radio"]:checked+label{
     height: 60px;
 }
 
+.btns {
+    font-size: 20px !important;
+}
+
 /*Btn Pre Pos */
 .btn-pre-pos {
     padding: 7px 12px !important;
 }
 
+/* Btn Pre */
 .btn-pre {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
 
+/* Btn Fixado */
 .btn-fixado {
     padding: 7px 1px !important;
     border-top-left-radius: 0 !important;
