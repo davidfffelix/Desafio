@@ -21,25 +21,21 @@
 /* Btn Bruto */
 .btn-bruto {
     padding: 7px 25px !important;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
 }
 
 /* Btn Liquido */
 .btn-liquido {
     padding: 7px 18px !important;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
 
 /* Form Input */
 form input[type="radio"]:checked+label{
     background-color: white !important;
     color: black !important;
-}
-
-.btn-pre-pos {
-    padding: 7px 12px !important;
 }
 
 /* Btn Clean */
@@ -50,6 +46,22 @@ form input[type="radio"]:checked+label{
     width: 200px;
     font-weight: bold;
     height: 60px;
+}
+
+/*Btn Pre Pos */
+.btn-pre-pos {
+    padding: 7px 12px !important;
+}
+
+.btn-pre {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.btn-fixado {
+    padding: 7px 1px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
 
 /* Btn Simulate */
