@@ -18,30 +18,19 @@
     margin-right: 100px;
 }
 
-.btn-style {
-    border: 2px solid black !important;
-    width: 40px;
-    height: 30px;
+/* Btn Bruto */
+.btn-bruto {
+    max-width: 260px;
+    width: 100px;
+    height: 50px;
+    font-size: 
 }
 
-/* Btn Style1 */
-.btn-style1 {
-    border: 2px solid black !important;
-    padding: 30px;
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    text-align: center;
-    cursor: pointer;
-}
-
-/* Btn Style2 */
-.btn-style2 {
-    border: 2px solid black !important;
-    padding: 30px 10px;
-    border-top-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
-    text-align: center;
-    cursor: pointer;
+/* Btn Liquido */
+.btn-liquido {
+   max-width: 260px;
+   width: 100px;
+   height: 50px;
 }
 
 /* Form Input */
@@ -50,7 +39,7 @@ form input[type="radio"]:checked+label{
     color: black !important;
 }
 
-/* Btn Last */
+/* Btn Clean */
 .btn-clean {
     background-color: #EFEFEF;
     margin-left: 0;
