@@ -18,25 +18,25 @@
 
         <h3 class="fw-bold"> Simulador </h3>
 
-        <div class="d-flex">
+    <div class="d-flex"> <!-- Container -->
 
-        <form class="d-flex me-5">
+        <form class="d-flex me-5 ">
             <section class="spacing-form">
                 <div class="d-flex justify-content-between mt-3">
-                    <h6> Rendimento </h6> <span class="d-flex"><img src="img/icon-info.svg"></span>
+                    <h6> Rendimento </h6> <span class="d-flex"><img src="img/icon-info.svg" width="18"></span>
                 </div> <!-- Title Rendimento -->
 
 
                 <div class="d-flex">
                     <div>
                         <input type="radio" class="btn-check" id="bruto" name="rendimento" value="bruto">
-                        <button type="button" class="btn-bruto btn btn-outline-dark rounded-left"> Bruto </button>
+                        <label for="bruto" type="button" class="btn-bruto btn btn-outline-dark fw-bold"> Bruto </label>
                         <!-- <label for="bruto" class="btn fw-bold"> Bruto </label> -->
                     </div> <!-- Btn-bruto -->
 
                     <div>
                         <input type="radio" class="btn-check" id="liquido" name="rendimento" value="liquido">
-                        <button type="button" class="btn-liquido btn btn-outline-dark rounded-right mb-4"> Liquido </button>
+                        <label for="liquido" type="button" class="btn-liquido btn btn-outline-dark mb-4 fw-bold"> Liquido </label>
                     </div> <!-- Btn-liquido -->
                 </div>
 
@@ -44,12 +44,12 @@
                 <div class="d-flex flex-column">
                     <div class="form-input">
                         <label for="aporteinicial" class="d-flex flex-column mt-3 mb-4"> Aporte Inicial </label>
-                        <input type="text" id="aporteinicial" name="aporteinicial"> 
+                        <input type="text" class="regex" id="aporteinicial" name="aporteinicial"> 
                     </div> <!--Form-input-->
 
                     <div class="form-input">
                         <label for="prazo" class="d-flex flex-column mt-3 mb-4"> Prazo (em meses) </label>
-                        <input type="text" id="prazo" name="prazo">
+                        <input type="text" class="regex" id="prazo" name="prazo">
                     </div> <!--Form-input-->
 
                     <div class="form-input">
@@ -65,26 +65,28 @@
 
             <section class="d-flex flex-column mt-3">
                     <div class="d-flex">
-                        <h6> Tipos de Indexacao </h6> <span class="d-flex"><img src="img/icon-info.svg"></span>
+                        <h6> Tipos de Indexacao </h6> <span class="d-flex justify-content"><img src="img/icon-info.svg" width="18"></span>
                     </div> <!-- Types of Indexing -->
 
 
                     <div class="d-flex">
                         <div>
                             <input type="radio" class="btn-check" id="pre" name="indexing" value="pre">
-                            <button type="button" class="btn-pre-pos btn btn-outline-dark rounded-left"> PRE </button>
+                            <label for="pre" type="button" class="btn-pre-pos btn btn-outline-dark fw-bold"> PRE </label>
                            <!-- <button type="button" class="btn btn-primary rounded-left"> PRE </button> -->
                         </div> <!-- Pré --> 
 
                         <div>
                             <input type="radio" class="btn-check" id="pos" name="indexing" value="pos">
-                            <button type="button" class="btn-pre-pos btn btn-outline-dark rounded-0"> POS </button>
+                            <label for="pos" type="button" class="btn-pre-pos btn btn-outline-dark rounded-0 fw-bold"> POS </label>
+                            <!-- <label for="pos" type="button" class="btn-pre-pos btn btn-outline-dark rounded-0 fw-bold"> <img src="img/icon-info.svg" width="18"> POS </label> -->
+
                            <!-- <label for="pos" class="btn text-light btn-warning rounded-0 fw-bold"> POS </label> -->
                         </div> <!-- Pos -->
 
                         <div>
                             <input type="radio" class="btn-check" id="fixado" name="indexing" value="fixado">
-                            <button type="button" class="btn-pre-pos btn btn-outline-dark rounded-right mb-4"> FIXADO </button>
+                            <label for="fixado" type="button" class="btn-pre-pos btn btn-outline-dark  mb-4 fw-bold"> FIXADO </label>
                            <!-- <label for="fixado" class="btn-style2 btn text-light btn-warning fw-bold"> FIXADO </label> -->
                         </div> <!-- Fixado -->
                     </div>  
@@ -92,11 +94,11 @@
                     
                     <div class="form-input">
                         <label for="aportemensal" class="d-flex flex-column mt-3 mb-4"> Aporte Mensal </label>
-                        <input type="text" id="aportemensal" name="aportemensal">
+                        <input type="text" class="regex" id="aportemensal" name="aportemensal">
                         <!-- Aporte Mensal --> 
 
                         <label for="rentabilidade" class="d-flex flex-column mt-3 mb-4"> Rentabilidade </label>
-                        <input type="text" id="rentabilidade" name="rentabilidade">
+                        <input type="text" class="regex" id="rentabilidade" name="rentabilidade">
                         <!-- Rentabilidade -->
 
                         <label for="cdi" class="d-flex flex-column mt-3 mb-4"> CDI (ao ano) </label>
@@ -110,44 +112,44 @@
 
         
         <div class="d-flex"> 
-                <div class="d-flex flex-column fw-bold">
-                    <div class="d-flex">
-                        <h3 class="fw-bold mb-4"> Resultado da Simulacao </h3>
-                    </div> <!-- Title Resultado da Simulação -->
-                    
-
-                    <div class="d-flex mb-4">
-                        <div> 
-                            <p class="btn-result"> Valor final bruto </p>
-                        </div> <!-- Gross final value --> 
-                        
-                        <div>
-                            <p class="btn-result"> Aliquota do IR </p>
-                        </div> <!-- IR aliquot  -->
-
-                        <div>
-                            <p class="btn-result"> Valor Pago em IR </p>
-                        </div> <!-- IR paid  -->
-                    </div>
-                
-                
+            <div class="d-flex flex-column fw-bold">
                 <div class="d-flex">
+                    <h3 class="fw-bold mb-4"> Resultado da Simulacao </h3>
+                </div> <!-- Title Resultado da Simulação -->
+                
+
+                <div class="d-flex mb-4">
+                    <div> 
+                        <p class="btn-result"> Valor final bruto </p>
+                    </div> <!-- Gross final value --> 
+                    
                     <div>
-                        <p class="btn-result"> Valor Final Liquido </p>
-                    </div>
+                        <p class="btn-result"> Aliquota do IR </p>
+                    </div> <!-- IR aliquot  -->
 
                     <div>
-                        <p class="btn-result"> Valor Total Investido </p>
-                    </div>
+                        <p class="btn-result"> Valor Pago em IR </p>
+                    </div> <!-- IR paid  -->
+            </div>
 
-                    <div>
-                        <p class="btn-result"> Ganho Liquido </p>
-                    </div>
-                </div>
             
+            <div class="d-flex">
+                <div>
+                    <p class="btn-result"> Valor Final Liquido </p>
+                </div>
+
+                <div>
+                    <p class="btn-result"> Valor Total Investido </p>
+                </div>
+
+                <div>
+                    <p class="btn-result"> Ganho Liquido </p>
+                </div>
+            </div>
+        
             </div> <!-- Result -->
-        </div>  
-        </div>  
+        </div>  <!-- Result Container-->
+    </div> <!-- Container --> 
 
     </div> <!-- Background  -->
 
@@ -155,3 +157,4 @@
 </body>
 
 </html>
+

@@ -20,17 +20,16 @@
 
 /* Btn Bruto */
 .btn-bruto {
-    max-width: 260px;
-    width: 100px;
-    height: 50px;
-    font-size: 
+    padding: 7px 25px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 /* Btn Liquido */
 .btn-liquido {
-   max-width: 260px;
-   width: 100px;
-   height: 50px;
+    padding: 7px 18px !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 /* Form Input */
@@ -40,8 +39,7 @@ form input[type="radio"]:checked+label{
 }
 
 .btn-pre-pos {
-    width: 70px;
-    height: 50px;
+    padding: 7px 12px !important;
 }
 
 /* Btn Clean */
@@ -87,6 +85,6 @@ input[type="text"] {
     border-bottom: 1px solid black !important;
 }
 
-button[type="button"]:hover {
-    background-color: #ED8E53;
+label[type="button"]:hover {
+    background-color: #ED8E53 !important;
 }

@@ -8,4 +8,3 @@ fetch('http://localhost:3000/indicadores', {header})
     document.querySelector('#ipca').value = retorno[1].valor + "%"
     document.querySelector('#cdi').value = retorno[0].valor + "%"
 })
-
